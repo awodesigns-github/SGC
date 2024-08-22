@@ -4,6 +4,7 @@ const router = require('../routes/userRoutes');
 
 app.use(express.json());
 
-app.use('/api/v1/users', router);
+// This defines the base route - http://localhost/api/v1/users/
+app.use('/api/v1/users', router); // Linked to routes/userRoutes.js
 
 module.exports = app;
