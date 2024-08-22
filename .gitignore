@@ -1,0 +1,31 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+
+# Editor files
+.idea/
+
+# Build files
+dist/
+build/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# Environment files
+*.env
+*.env.example
+*.env.local
+*.env.testing
+*.env.development
+*.env.production
+
+# Node modules
+node_modules/
