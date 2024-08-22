@@ -1,31 +1,33 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
+# Dependency directories
+node_modules/
 
-# Editor files
-.idea/
-
-# Build files
-dist/
-build/
-
-# Log files
+# Logs
+logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+/dist
+/build
+
+# Editor directories and files
+.vscode/
+/.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
 
 # Temporary files
 *.tmp
 *.temp
 *.swp
-
-# Environment files
-*.env
-*.env.example
-*.env.local
-*.env.testing
-*.env.development
-*.env.production
-
-# Node modules
-node_modules/
